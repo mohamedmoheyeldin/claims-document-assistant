@@ -1,0 +1,25 @@
+{
+  "id": "claim-011",
+  "layout": "letter",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-179205",
+    "claimantFirstName": "Avery",
+    "claimantLastName": "Ellison",
+    "memberId": "SYN17490508",
+    "dateOfBirth": "2000-03-18",
+    "referralNumber": "RF26GQ7NVABU",
+    "referralExpirationDate": "2026-07-24",
+    "providerName": "Emerson Greer, DPT",
+    "providerNpi": "1868069539",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-02-16",
+    "serviceDateTo": "2026-02-19",
+    "diagnosisCode": "M54.50",
+    "procedureCode": "97110",
+    "serviceDescription": "Therapeutic exercise, 15 minutes",
+    "billedAmount": 126.22,
+    "submittedDate": "2026-02-20"
+  },
+  "expectedIssues": []
+}

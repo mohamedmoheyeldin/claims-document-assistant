@@ -1,0 +1,25 @@
+{
+  "id": "claim-044",
+  "layout": "letter",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-440556",
+    "claimantFirstName": "Casey",
+    "claimantLastName": "Ellison",
+    "memberId": "SYN35909311",
+    "dateOfBirth": "1957-10-02",
+    "referralNumber": "RF26PNFYLNUY",
+    "referralExpirationDate": "2026-12-07",
+    "providerName": "Jordan Vasquez, MD",
+    "providerNpi": "1719663100",
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-01-21",
+    "serviceDateTo": "2026-01-21",
+    "diagnosisCode": "M54.50",
+    "procedureCode": "97110",
+    "serviceDescription": "Therapeutic exercise, 15 minutes",
+    "billedAmount": 157,
+    "submittedDate": "2026-02-14"
+  },
+  "expectedIssues": []
+}

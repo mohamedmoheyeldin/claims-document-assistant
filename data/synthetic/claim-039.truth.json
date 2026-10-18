@@ -1,0 +1,25 @@
+{
+  "id": "claim-039",
+  "layout": "letter",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-401065",
+    "claimantFirstName": "Reese",
+    "claimantLastName": "Delacroix",
+    "memberId": "SYN34932967",
+    "dateOfBirth": "1992-12-22",
+    "referralNumber": "RF26D6KENESB",
+    "referralExpirationDate": "2026-08-16",
+    "providerName": "Taylor Kowalski, DPT",
+    "providerNpi": "1521966493",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-03-17",
+    "serviceDateTo": "2026-03-17",
+    "diagnosisCode": "G47.33",
+    "procedureCode": "95810",
+    "serviceDescription": "Polysomnography, attended sleep study",
+    "billedAmount": 1335.4,
+    "submittedDate": "2026-03-26"
+  },
+  "expectedIssues": []
+}

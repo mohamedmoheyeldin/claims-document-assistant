@@ -1,0 +1,1458 @@
+{
+  "extractor": "rules",
+  "documents": 60,
+  "generatedAt": "2026-10-18T04:20:00.104Z",
+  "fieldAccuracy": 0.8049,
+  "documentExactMatch": 0.8,
+  "byLayout": {
+    "form": {
+      "documents": 31,
+      "fieldAccuracy": 1,
+      "documentExactMatch": 1,
+      "flagPrecision": 1,
+      "flagRecall": 1
+    },
+    "letter": {
+      "documents": 17,
+      "fieldAccuracy": 1,
+      "documentExactMatch": 1,
+      "flagPrecision": 1,
+      "flagRecall": 1
+    },
+    "note": {
+      "documents": 12,
+      "fieldAccuracy": 0.0245,
+      "documentExactMatch": 0,
+      "flagPrecision": 0.0321,
+      "flagRecall": 0.7143
+    }
+  },
+  "byField": {
+    "claimNumber": 0.8,
+    "claimantFirstName": 0.8167,
+    "claimantLastName": 0.8167,
+    "memberId": 0.8,
+    "dateOfBirth": 0.8167,
+    "referralNumber": 0.8,
+    "referralExpirationDate": 0.8,
+    "providerName": 0.8,
+    "providerNpi": 0.8,
+    "facilityName": 0.8,
+    "serviceDateFrom": 0.8,
+    "serviceDateTo": 0.8,
+    "diagnosisCode": 0.8,
+    "procedureCode": 0.8,
+    "serviceDescription": 0.8,
+    "billedAmount": 0.8167,
+    "submittedDate": 0.8167
+  },
+  "issueDetection": {
+    "precision": 0.1793,
+    "recall": 0.9429,
+    "truePositives": 33,
+    "falsePositives": 151,
+    "falseNegatives": 2
+  },
+  "routingAccuracy": 0.8833,
+  "timingMs": {
+    "meanPerDocument": 8,
+    "p95PerDocument": 11,
+    "total": 466
+  },
+  "errors": [],
+  "misses": [
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-116017",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Reese",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Delacroix",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN28505834",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "2000-11-14",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26RNV7JNCP",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-07-01",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Dakota Abernathy, PhD",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1766423622",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Northgate Orthopedic Group",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-04-14",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-04-14",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "S83.241A",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "29881",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Arthroscopy, knee, with meniscectomy",
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 6743.35,
+      "actual": null
+    },
+    {
+      "id": "claim-003",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-04-28",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-132274",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Jordan",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Brennan",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN66080963",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1974-08-03",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26SUM9LZBK",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-05-08",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Casey Greer, NP",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1973538501",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Northgate Orthopedic Group",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-04-04",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-04-04",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "540.5",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "90837",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Psychotherapy, 60 minutes",
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 257.62,
+      "actual": null
+    },
+    {
+      "id": "claim-005",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-04-19",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-156068",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Rowan",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Delacroix",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN22658322",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1969-12-27",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26ECU4WYJB",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-07-18",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Dakota Vasquez, PhD",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1868832605",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Northgate Orthopedic Group",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-02-08",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-02-08",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "M51.26",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "72148",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "MRI lumbar spine without contrast",
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 1612.26,
+      "actual": null
+    },
+    {
+      "id": "claim-008",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-03-08",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-203027",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Dakota",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Nakamura",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN24357939",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1977-05-26",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26S8GTPJDT",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-12-31",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Rowan Vasquez, MD",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1103981068",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Harbor Point Sleep Center",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-01-28",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-01-28",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "E11.9",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "99214",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Office visit, established patient, moderate complexity",
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 161.99,
+      "actual": null
+    },
+    {
+      "id": "claim-014",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-02-23",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-274832",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Riley",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Castillo",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN19053594",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1983-07-17",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26EG3L26NZ",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-09-29",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Emerson Iverson, PhD",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1525943738",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Lakeside Community Physical Therapy",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-05-13",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-05-13",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "F43.10",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "90837",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Psychotherapy, 60 minutes",
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 186.71,
+      "actual": null
+    },
+    {
+      "id": "claim-023",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-05-24",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-290289",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Morgan",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Marquez",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN43450742",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1959-09-20",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26K7RYD6YN",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-10-15",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Dakota Vasquez, PhD",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1315454011",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Riverbend Imaging Center",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-08-16",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-08-16",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "F43.10",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "90837",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Psychotherapy, 60 minutes",
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 178.71,
+      "actual": null
+    },
+    {
+      "id": "claim-025",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-08-26",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-346135",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Emerson",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN92844093",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1969-05-04",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26FYD2ECHH",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-04-28",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Dakota Mensah, MD",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1781298306",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Harbor Point Sleep Center",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-02-15",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-02-15",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "S83.241A",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "29881",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Arthroscopy, knee, with meniscectomy",
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 3432.19,
+      "actual": null
+    },
+    {
+      "id": "claim-032",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-03-26",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-456867",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Rowan",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Lindqvist",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN70102913",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1973-06-15",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF268EN6Z8CU",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2027-01-02",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Morgan Iverson, NP",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1554765515",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Harbor Point Sleep Center",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-02-26",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-03-01",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "U99.X",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "99214",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Office visit, established patient, moderate complexity",
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 142.84,
+      "actual": null
+    },
+    {
+      "id": "claim-046",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-03-30",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-472437",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Nakamura",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN33527611",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1952-03-25",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26XBCU64FB",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2027-04-26",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Dakota Thornton, DO",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1769800586",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Riverbend Imaging Center",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-05-28",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-05-28",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "G47.33",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "95810",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Polysomnography, attended sleep study",
+      "actual": null
+    },
+    {
+      "id": "claim-048",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-06-05",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-480393",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Jordan",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Delacroix",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN66785074",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26VPFP5F3X",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-03-15",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Taylor Mensah, NP",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1553439831",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Riverbend Imaging Center",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-01-09",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-01-09",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "S83.241A",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "29881",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Arthroscopy, knee, with meniscectomy",
+      "actual": null
+    },
+    {
+      "id": "claim-049",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 3876.96,
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-488108",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Morgan",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Ellison",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN30036382",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1963-06-22",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF266QWJPJC9",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-11-28",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Quinn Abernathy, MD",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1590053686",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Cedar Valley Family Clinic",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-01-02",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-01-06",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "E11.9",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "99214",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "Office visit, established patient, moderate complexity",
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 221.74,
+      "actual": null
+    },
+    {
+      "id": "claim-050",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-01-14",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "claimNumber",
+      "expected": "CLM-2026-511859",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "claimantFirstName",
+      "expected": "Riley",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "claimantLastName",
+      "expected": "Adeyemi",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "memberId",
+      "expected": "SYN97327432",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "dateOfBirth",
+      "expected": "1960-05-23",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "referralNumber",
+      "expected": "RF26EQUBTZ36",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "referralExpirationDate",
+      "expected": "2026-11-22",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "providerName",
+      "expected": "Taylor Patel, DPT",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "providerNpi",
+      "expected": "1721332751",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "facilityName",
+      "expected": "Cedar Valley Family Clinic",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "serviceDateFrom",
+      "expected": "2026-01-08",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "serviceDateTo",
+      "expected": "2026-01-12",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "diagnosisCode",
+      "expected": "M51.26",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "procedureCode",
+      "expected": "72148",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "serviceDescription",
+      "expected": "MRI lumbar spine without contrast",
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "billedAmount",
+      "expected": 1604.68,
+      "actual": null
+    },
+    {
+      "id": "claim-053",
+      "layout": "note",
+      "field": "submittedDate",
+      "expected": "2026-02-01",
+      "actual": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "claim-028",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-314061",
+    "claimantFirstName": "Jordan",
+    "claimantLastName": "Lindqvist",
+    "memberId": "SYN32278770",
+    "dateOfBirth": "1948-09-06",
+    "referralNumber": "RF267Y2UALDV",
+    "referralExpirationDate": "2027-07-05",
+    "providerName": "Reese Kowalski, DPT",
+    "providerNpi": "1550668358",
+    "facilityName": "Northgate Orthopedic Group",
+    "serviceDateFrom": "2026-07-25",
+    "serviceDateTo": "2026-07-25",
+    "diagnosisCode": "S83.241A",
+    "procedureCode": "29881",
+    "serviceDescription": "Arthroscopy, knee, with meniscectomy",
+    "billedAmount": 5090.12,
+    "submittedDate": "2026-07-31"
+  },
+  "expectedIssues": []
+}

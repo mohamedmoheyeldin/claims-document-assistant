@@ -1,0 +1,25 @@
+{
+  "id": "claim-041",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-417459",
+    "claimantFirstName": "Quinn",
+    "claimantLastName": "Hargrove",
+    "memberId": "SYN83088184",
+    "dateOfBirth": "1950-07-27",
+    "referralNumber": "RF26HFG3U3KM",
+    "referralExpirationDate": "2026-04-12",
+    "providerName": "Rowan Greer, MD",
+    "providerNpi": "1248623807",
+    "facilityName": "Northgate Orthopedic Group",
+    "serviceDateFrom": "2026-02-11",
+    "serviceDateTo": "2026-02-11",
+    "diagnosisCode": "M54.50",
+    "procedureCode": "97110",
+    "serviceDescription": "Therapeutic exercise, 15 minutes",
+    "billedAmount": 143.51,
+    "submittedDate": "2026-02-23"
+  },
+  "expectedIssues": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "claim-009",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-163939",
+    "claimantFirstName": "Reese",
+    "claimantLastName": "Delacroix",
+    "memberId": "SYN58017536",
+    "dateOfBirth": "1951-11-17",
+    "referralNumber": "RF26NNZLB7GC",
+    "referralExpirationDate": "2027-07-31",
+    "providerName": "Taylor Iverson, DO",
+    "providerNpi": "1173657986",
+    "facilityName": "Riverbend Imaging Center",
+    "serviceDateFrom": "2026-08-14",
+    "serviceDateTo": "2026-08-14",
+    "diagnosisCode": "G47.33",
+    "procedureCode": "95810",
+    "serviceDescription": "Polysomnography, attended sleep study",
+    "billedAmount": 2387.27,
+    "submittedDate": "2026-09-02"
+  },
+  "expectedIssues": []
+}

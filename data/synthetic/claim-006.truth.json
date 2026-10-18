@@ -1,0 +1,25 @@
+{
+  "id": "claim-006",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-139690",
+    "claimantFirstName": "Avery",
+    "claimantLastName": "Nakamura",
+    "memberId": "SYN33664556",
+    "dateOfBirth": "1967-09-22",
+    "referralNumber": "RF26SY5AER7H",
+    "referralExpirationDate": "2027-06-07",
+    "providerName": "Casey Iverson, DPT",
+    "providerNpi": "1083405401",
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-06-27",
+    "serviceDateTo": "2026-06-27",
+    "diagnosisCode": "M54.50",
+    "procedureCode": "97110",
+    "serviceDescription": "Therapeutic exercise, 15 minutes",
+    "billedAmount": 138.1,
+    "submittedDate": "2026-08-06"
+  },
+  "expectedIssues": []
+}

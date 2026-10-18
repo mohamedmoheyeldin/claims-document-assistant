@@ -1,0 +1,25 @@
+{
+  "id": "claim-014",
+  "layout": "note",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-203027",
+    "claimantFirstName": "Dakota",
+    "claimantLastName": "Nakamura",
+    "memberId": "SYN24357939",
+    "dateOfBirth": "1977-05-26",
+    "referralNumber": "RF26S8GTPJDT",
+    "referralExpirationDate": "2026-12-31",
+    "providerName": "Rowan Vasquez, MD",
+    "providerNpi": "1103981068",
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-01-28",
+    "serviceDateTo": "2026-01-28",
+    "diagnosisCode": "E11.9",
+    "procedureCode": "99214",
+    "serviceDescription": "Office visit, established patient, moderate complexity",
+    "billedAmount": 161.99,
+    "submittedDate": "2026-02-23"
+  },
+  "expectedIssues": []
+}

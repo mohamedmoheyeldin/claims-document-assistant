@@ -1,0 +1,30 @@
+{
+  "id": "claim-034",
+  "layout": "form",
+  "scenario": "invalid",
+  "fields": {
+    "claimNumber": "CLM-2026-361943",
+    "claimantFirstName": "Taylor",
+    "claimantLastName": "Lindqvist",
+    "memberId": "SYN64762175",
+    "dateOfBirth": "1982-03-07",
+    "referralNumber": "RF26LT3TU48W",
+    "referralExpirationDate": "2026-07-10",
+    "providerName": "Hayden Iverson, DPT",
+    "providerNpi": "1702187646",
+    "facilityName": "Riverbend Imaging Center",
+    "serviceDateFrom": "2026-05-20",
+    "serviceDateTo": "2026-05-20",
+    "diagnosisCode": "540.5",
+    "procedureCode": "72148",
+    "serviceDescription": "MRI lumbar spine without contrast",
+    "billedAmount": 1028.04,
+    "submittedDate": "2026-06-16"
+  },
+  "expectedIssues": [
+    {
+      "code": "INVALID_DIAGNOSIS_CODE",
+      "field": "diagnosisCode"
+    }
+  ]
+}

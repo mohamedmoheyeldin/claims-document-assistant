@@ -1,0 +1,25 @@
+{
+  "id": "claim-052",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-503977",
+    "claimantFirstName": "Jordan",
+    "claimantLastName": "Lindqvist",
+    "memberId": "SYN43886689",
+    "dateOfBirth": "1967-12-18",
+    "referralNumber": "RF26MAX2X3FH",
+    "referralExpirationDate": "2026-07-21",
+    "providerName": "Morgan Thornton, PhD",
+    "providerNpi": "1321465316",
+    "facilityName": "Cedar Valley Family Clinic",
+    "serviceDateFrom": "2026-06-20",
+    "serviceDateTo": "2026-06-21",
+    "diagnosisCode": "G47.33",
+    "procedureCode": "95810",
+    "serviceDescription": "Polysomnography, attended sleep study",
+    "billedAmount": 2089.67,
+    "submittedDate": "2026-07-20"
+  },
+  "expectedIssues": []
+}

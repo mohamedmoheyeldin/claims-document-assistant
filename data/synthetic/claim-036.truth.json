@@ -1,0 +1,34 @@
+{
+  "id": "claim-036",
+  "layout": "form",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-377519",
+    "claimantFirstName": "Morgan",
+    "claimantLastName": "Castillo",
+    "memberId": null,
+    "dateOfBirth": "1948-05-11",
+    "referralNumber": null,
+    "referralExpirationDate": "2026-04-08",
+    "providerName": "Morgan Patel, MD",
+    "providerNpi": "1676018702",
+    "facilityName": "Cedar Valley Family Clinic",
+    "serviceDateFrom": "2026-03-06",
+    "serviceDateTo": "2026-03-09",
+    "diagnosisCode": "M51.26",
+    "procedureCode": "72148",
+    "serviceDescription": "MRI lumbar spine without contrast",
+    "billedAmount": 1470.72,
+    "submittedDate": "2026-03-29"
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "memberId"
+    },
+    {
+      "code": "MISSING_FIELD",
+      "field": "referralNumber"
+    }
+  ]
+}

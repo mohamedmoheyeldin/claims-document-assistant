@@ -1,0 +1,30 @@
+{
+  "id": "claim-017",
+  "layout": "form",
+  "scenario": "invalid",
+  "fields": {
+    "claimNumber": "CLM-2026-227377",
+    "claimantFirstName": "Reese",
+    "claimantLastName": "Nakamura",
+    "memberId": "SYN52586791",
+    "dateOfBirth": "1971-03-13",
+    "referralNumber": "RF267JC58DE4",
+    "referralExpirationDate": "2027-04-21",
+    "providerName": "Avery Mensah, MD",
+    "providerNpi": "1394981299",
+    "facilityName": "Northgate Orthopedic Group",
+    "serviceDateFrom": "2026-06-01",
+    "serviceDateTo": "2026-06-01",
+    "diagnosisCode": "M54.50",
+    "procedureCode": "97110",
+    "serviceDescription": "Therapeutic exercise, 15 minutes",
+    "billedAmount": 97.45,
+    "submittedDate": "2026-06-21"
+  },
+  "expectedIssues": [
+    {
+      "code": "INVALID_NPI",
+      "field": "providerNpi"
+    }
+  ]
+}

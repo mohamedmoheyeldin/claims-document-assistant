@@ -1,0 +1,25 @@
+{
+  "id": "claim-012",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-187736",
+    "claimantFirstName": "Taylor",
+    "claimantLastName": "Marquez",
+    "memberId": "SYN54836755",
+    "dateOfBirth": "1955-02-13",
+    "referralNumber": "RF268K76AB3G",
+    "referralExpirationDate": "2026-09-19",
+    "providerName": "Rowan Patel, DO",
+    "providerNpi": "1216775696",
+    "facilityName": "Riverbend Imaging Center",
+    "serviceDateFrom": "2026-05-11",
+    "serviceDateTo": "2026-05-13",
+    "diagnosisCode": "E11.9",
+    "procedureCode": "99214",
+    "serviceDescription": "Office visit, established patient, moderate complexity",
+    "billedAmount": 232.6,
+    "submittedDate": "2026-05-29"
+  },
+  "expectedIssues": []
+}

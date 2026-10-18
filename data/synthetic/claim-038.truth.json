@@ -1,0 +1,30 @@
+{
+  "id": "claim-038",
+  "layout": "letter",
+  "scenario": "invalid",
+  "fields": {
+    "claimNumber": "CLM-2026-393132",
+    "claimantFirstName": "Avery",
+    "claimantLastName": "Okafor",
+    "memberId": "SYN53681302",
+    "dateOfBirth": "1993-03-02",
+    "referralNumber": "RF26VXFEJPYB",
+    "referralExpirationDate": "2026-06-24",
+    "providerName": "Riley Abernathy, PhD",
+    "providerNpi": "1526306935",
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-04-25",
+    "serviceDateTo": "2026-04-29",
+    "diagnosisCode": "M5450",
+    "procedureCode": "29881",
+    "serviceDescription": "Arthroscopy, knee, with meniscectomy",
+    "billedAmount": 7279.11,
+    "submittedDate": "2026-05-20"
+  },
+  "expectedIssues": [
+    {
+      "code": "INVALID_DIAGNOSIS_CODE",
+      "field": "diagnosisCode"
+    }
+  ]
+}

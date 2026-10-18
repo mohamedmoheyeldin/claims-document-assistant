@@ -1,0 +1,25 @@
+{
+  "id": "claim-027",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-305938",
+    "claimantFirstName": "Emerson",
+    "claimantLastName": "Brennan",
+    "memberId": "SYN68256574",
+    "dateOfBirth": "1953-09-02",
+    "referralNumber": "RF2666CKJ3AZ",
+    "referralExpirationDate": "2026-04-05",
+    "providerName": "Dakota Thornton, MD",
+    "providerNpi": "1717000065",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-03-06",
+    "serviceDateTo": "2026-03-06",
+    "diagnosisCode": "M54.50",
+    "procedureCode": "97110",
+    "serviceDescription": "Therapeutic exercise, 15 minutes",
+    "billedAmount": 118.67,
+    "submittedDate": "2026-03-21"
+  },
+  "expectedIssues": []
+}

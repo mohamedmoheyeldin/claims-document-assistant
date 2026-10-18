@@ -1,0 +1,25 @@
+{
+  "id": "claim-053",
+  "layout": "note",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-511859",
+    "claimantFirstName": "Riley",
+    "claimantLastName": "Adeyemi",
+    "memberId": "SYN97327432",
+    "dateOfBirth": "1960-05-23",
+    "referralNumber": "RF26EQUBTZ36",
+    "referralExpirationDate": "2026-11-22",
+    "providerName": "Taylor Patel, DPT",
+    "providerNpi": "1721332751",
+    "facilityName": "Cedar Valley Family Clinic",
+    "serviceDateFrom": "2026-01-08",
+    "serviceDateTo": "2026-01-12",
+    "diagnosisCode": "M51.26",
+    "procedureCode": "72148",
+    "serviceDescription": "MRI lumbar spine without contrast",
+    "billedAmount": 1604.68,
+    "submittedDate": "2026-02-01"
+  },
+  "expectedIssues": []
+}

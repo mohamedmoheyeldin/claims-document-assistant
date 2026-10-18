@@ -1,0 +1,25 @@
+{
+  "id": "claim-025",
+  "layout": "note",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-290289",
+    "claimantFirstName": "Morgan",
+    "claimantLastName": "Marquez",
+    "memberId": "SYN43450742",
+    "dateOfBirth": "1959-09-20",
+    "referralNumber": "RF26K7RYD6YN",
+    "referralExpirationDate": "2026-10-15",
+    "providerName": "Dakota Vasquez, PhD",
+    "providerNpi": "1315454011",
+    "facilityName": "Riverbend Imaging Center",
+    "serviceDateFrom": "2026-08-16",
+    "serviceDateTo": "2026-08-16",
+    "diagnosisCode": "F43.10",
+    "procedureCode": "90837",
+    "serviceDescription": "Psychotherapy, 60 minutes",
+    "billedAmount": 178.71,
+    "submittedDate": "2026-08-26"
+  },
+  "expectedIssues": []
+}

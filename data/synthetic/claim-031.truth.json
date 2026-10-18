@@ -1,0 +1,30 @@
+{
+  "id": "claim-031",
+  "layout": "letter",
+  "scenario": "invalid",
+  "fields": {
+    "claimNumber": "CLM-2026-338393",
+    "claimantFirstName": "Riley",
+    "claimantLastName": "Marquez",
+    "memberId": "SYN39842305",
+    "dateOfBirth": "1996-10-17",
+    "referralNumber": "RF26A3ZJGUYP",
+    "referralExpirationDate": "2026-10-25",
+    "providerName": "Casey Iverson, DO",
+    "providerNpi": "1286059625",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-05-23",
+    "serviceDateTo": "2026-05-23",
+    "diagnosisCode": "S83.241A",
+    "procedureCode": "29881",
+    "serviceDescription": "Arthroscopy, knee, with meniscectomy",
+    "billedAmount": 5878.08,
+    "submittedDate": "2026-05-15"
+  },
+  "expectedIssues": [
+    {
+      "code": "DATE_ORDER",
+      "field": "submittedDate"
+    }
+  ]
+}

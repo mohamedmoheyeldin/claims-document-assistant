@@ -1,0 +1,34 @@
+{
+  "id": "claim-013",
+  "layout": "letter",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-195934",
+    "claimantFirstName": "Taylor",
+    "claimantLastName": "Delacroix",
+    "memberId": "SYN55071438",
+    "dateOfBirth": "1958-05-26",
+    "referralNumber": "RF26J5UN2S8B",
+    "referralExpirationDate": "2026-04-10",
+    "providerName": "Reese Abernathy, DPT",
+    "providerNpi": "1614802068",
+    "facilityName": "Riverbend Imaging Center",
+    "serviceDateFrom": "2026-02-04",
+    "serviceDateTo": "2026-02-04",
+    "diagnosisCode": "E11.9",
+    "procedureCode": null,
+    "serviceDescription": "Office visit, established patient, moderate complexity",
+    "billedAmount": 184.96,
+    "submittedDate": null
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "procedureCode"
+    },
+    {
+      "code": "MISSING_FIELD",
+      "field": "submittedDate"
+    }
+  ]
+}

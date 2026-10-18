@@ -1,0 +1,25 @@
+{
+  "id": "claim-022",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-266518",
+    "claimantFirstName": "Dakota",
+    "claimantLastName": "Ellison",
+    "memberId": "SYN11923506",
+    "dateOfBirth": "1980-08-26",
+    "referralNumber": "RF26LSXJLHPF",
+    "referralExpirationDate": "2026-09-13",
+    "providerName": "Quinn Kowalski, PhD",
+    "providerNpi": "1371674544",
+    "facilityName": "Northgate Orthopedic Group",
+    "serviceDateFrom": "2026-05-04",
+    "serviceDateTo": "2026-05-06",
+    "diagnosisCode": "G47.33",
+    "procedureCode": "95810",
+    "serviceDescription": "Polysomnography, attended sleep study",
+    "billedAmount": 1887.86,
+    "submittedDate": "2026-06-12"
+  },
+  "expectedIssues": []
+}
