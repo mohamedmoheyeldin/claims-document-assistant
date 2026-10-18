@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash", "Read", "Edit", "Write", "Glob", "Grep", "WebFetch", "WebSearch", "mcp__github",
+      "Bash(git commit:*)", "Bash(git push:*)", "Bash(git status:*)", "Bash(git diff:*)",
+      "Bash(git log:*)", "Bash(git show:*)", "Bash(git branch:*)", "Bash(git switch:*)",
+      "Bash(git checkout:*)", "Bash(git fetch:*)", "Bash(git pull:*)", "Bash(git add:*)",
+      "Bash(git merge:*)", "Bash(pnpm:*)"
+    ],
+    "deny": ["Read(./.env)", "Read(./.env.*)"]
+  }
+}
