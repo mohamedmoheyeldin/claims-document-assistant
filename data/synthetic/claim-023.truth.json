@@ -1,0 +1,25 @@
+{
+  "id": "claim-023",
+  "layout": "note",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-274832",
+    "claimantFirstName": "Riley",
+    "claimantLastName": "Castillo",
+    "memberId": "SYN19053594",
+    "dateOfBirth": "1983-07-17",
+    "referralNumber": "RF26EG3L26NZ",
+    "referralExpirationDate": "2026-09-29",
+    "providerName": "Emerson Iverson, PhD",
+    "providerNpi": "1525943738",
+    "facilityName": "Lakeside Community Physical Therapy",
+    "serviceDateFrom": "2026-05-13",
+    "serviceDateTo": "2026-05-13",
+    "diagnosisCode": "F43.10",
+    "procedureCode": "90837",
+    "serviceDescription": "Psychotherapy, 60 minutes",
+    "billedAmount": 186.71,
+    "submittedDate": "2026-05-24"
+  },
+  "expectedIssues": []
+}

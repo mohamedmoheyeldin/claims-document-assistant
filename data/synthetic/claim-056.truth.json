@@ -1,0 +1,25 @@
+{
+  "id": "claim-056",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-535809",
+    "claimantFirstName": "Emerson",
+    "claimantLastName": "Whitfield",
+    "memberId": "SYN13148719",
+    "dateOfBirth": "1960-06-11",
+    "referralNumber": "RF265XLJ73L4",
+    "referralExpirationDate": "2027-05-06",
+    "providerName": "Avery Abernathy, MD",
+    "providerNpi": "1143559155",
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-06-02",
+    "serviceDateTo": "2026-06-02",
+    "diagnosisCode": "M54.50",
+    "procedureCode": "97110",
+    "serviceDescription": "Therapeutic exercise, 15 minutes",
+    "billedAmount": 101.52,
+    "submittedDate": "2026-06-07"
+  },
+  "expectedIssues": []
+}

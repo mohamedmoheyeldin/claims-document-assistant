@@ -1,0 +1,30 @@
+{
+  "id": "claim-046",
+  "layout": "note",
+  "scenario": "invalid",
+  "fields": {
+    "claimNumber": "CLM-2026-456867",
+    "claimantFirstName": "Rowan",
+    "claimantLastName": "Lindqvist",
+    "memberId": "SYN70102913",
+    "dateOfBirth": "1973-06-15",
+    "referralNumber": "RF268EN6Z8CU",
+    "referralExpirationDate": "2027-01-02",
+    "providerName": "Morgan Iverson, NP",
+    "providerNpi": "1554765515",
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-02-26",
+    "serviceDateTo": "2026-03-01",
+    "diagnosisCode": "U99.X",
+    "procedureCode": "99214",
+    "serviceDescription": "Office visit, established patient, moderate complexity",
+    "billedAmount": 142.84,
+    "submittedDate": "2026-03-30"
+  },
+  "expectedIssues": [
+    {
+      "code": "INVALID_DIAGNOSIS_CODE",
+      "field": "diagnosisCode"
+    }
+  ]
+}

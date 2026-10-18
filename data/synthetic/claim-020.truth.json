@@ -1,0 +1,25 @@
+{
+  "id": "claim-020",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-250475",
+    "claimantFirstName": "Hayden",
+    "claimantLastName": "Adeyemi",
+    "memberId": "SYN84179852",
+    "dateOfBirth": "1967-07-09",
+    "referralNumber": "RF26F323CB5Z",
+    "referralExpirationDate": "2026-08-18",
+    "providerName": "Hayden Vasquez, MD",
+    "providerNpi": "1329308856",
+    "facilityName": "Cedar Valley Family Clinic",
+    "serviceDateFrom": "2026-06-06",
+    "serviceDateTo": "2026-06-10",
+    "diagnosisCode": "G47.33",
+    "procedureCode": "95810",
+    "serviceDescription": "Polysomnography, attended sleep study",
+    "billedAmount": 1289.17,
+    "submittedDate": "2026-06-28"
+  },
+  "expectedIssues": []
+}

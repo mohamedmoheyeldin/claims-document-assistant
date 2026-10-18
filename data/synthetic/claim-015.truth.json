@@ -1,0 +1,25 @@
+{
+  "id": "claim-015",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-211671",
+    "claimantFirstName": "Avery",
+    "claimantLastName": "Sorensen",
+    "memberId": "SYN95295380",
+    "dateOfBirth": "1959-09-12",
+    "referralNumber": "RF26DQNV28X3",
+    "referralExpirationDate": "2026-04-14",
+    "providerName": "Taylor Iverson, PhD",
+    "providerNpi": "1473213548",
+    "facilityName": "Cedar Valley Family Clinic",
+    "serviceDateFrom": "2026-02-13",
+    "serviceDateTo": "2026-02-16",
+    "diagnosisCode": "M51.26",
+    "procedureCode": "72148",
+    "serviceDescription": "MRI lumbar spine without contrast",
+    "billedAmount": 1707.45,
+    "submittedDate": "2026-02-25"
+  },
+  "expectedIssues": []
+}

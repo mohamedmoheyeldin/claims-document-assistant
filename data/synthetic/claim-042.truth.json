@@ -1,0 +1,25 @@
+{
+  "id": "claim-042",
+  "layout": "letter",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-425062",
+    "claimantFirstName": "Jordan",
+    "claimantLastName": "Delacroix",
+    "memberId": "SYN61452747",
+    "dateOfBirth": "1983-12-27",
+    "referralNumber": "RF26J9EL5LQP",
+    "referralExpirationDate": "2026-11-07",
+    "providerName": "Riley Abernathy, DO",
+    "providerNpi": "1661690788",
+    "facilityName": "Lakeside Community Physical Therapy",
+    "serviceDateFrom": "2026-06-18",
+    "serviceDateTo": "2026-06-18",
+    "diagnosisCode": "S83.241A",
+    "procedureCode": "29881",
+    "serviceDescription": "Arthroscopy, knee, with meniscectomy",
+    "billedAmount": 4585.61,
+    "submittedDate": "2026-07-28"
+  },
+  "expectedIssues": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "claim-054",
+  "layout": "letter",
+  "scenario": "invalid",
+  "fields": {
+    "claimNumber": "CLM-2026-520549",
+    "claimantFirstName": "Dakota",
+    "claimantLastName": "Brennan",
+    "memberId": "SYN22719639",
+    "dateOfBirth": "1991-02-28",
+    "referralNumber": "RF26DQ3AMB63",
+    "referralExpirationDate": "2026-09-16",
+    "providerName": "Quinn Mensah, PhD",
+    "providerNpi": "1997317939",
+    "facilityName": "Cedar Valley Family Clinic",
+    "serviceDateFrom": "2026-08-04",
+    "serviceDateTo": "2026-08-04",
+    "diagnosisCode": "M51.26",
+    "procedureCode": "72148",
+    "serviceDescription": "MRI lumbar spine without contrast",
+    "billedAmount": 1347.22,
+    "submittedDate": "2026-08-21"
+  },
+  "expectedIssues": [
+    {
+      "code": "INVALID_NPI",
+      "field": "providerNpi"
+    }
+  ]
+}

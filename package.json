@@ -1,0 +1,33 @@
+{
+  "name": "claims-document-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reads synthetic claim PDFs, extracts fields, flags missing information and drafts status replies for human review.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@11.22.0",
+  "scripts": {
+    "generate": "tsx src/cli.ts generate",
+    "process": "tsx src/cli.ts process",
+    "eval": "tsx src/cli.ts eval",
+    "review": "tsx src/cli.ts review",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "verify": "pnpm typecheck && pnpm test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "pdf-lib": "^1.17.1",
+    "unpdf": "^1.9.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}

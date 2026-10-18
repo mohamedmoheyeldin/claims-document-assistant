@@ -1,0 +1,25 @@
+{
+  "id": "claim-026",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-298554",
+    "claimantFirstName": "Jordan",
+    "claimantLastName": "Delacroix",
+    "memberId": "SYN76984874",
+    "dateOfBirth": "1975-04-23",
+    "referralNumber": "RF26NLMXMR9Z",
+    "referralExpirationDate": "2026-12-05",
+    "providerName": "Quinn Thornton, PhD",
+    "providerNpi": "1499068728",
+    "facilityName": "Riverbend Imaging Center",
+    "serviceDateFrom": "2026-02-01",
+    "serviceDateTo": "2026-02-01",
+    "diagnosisCode": "M54.50",
+    "procedureCode": "97110",
+    "serviceDescription": "Therapeutic exercise, 15 minutes",
+    "billedAmount": 113.04,
+    "submittedDate": "2026-03-07"
+  },
+  "expectedIssues": []
+}

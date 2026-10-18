@@ -1,0 +1,25 @@
+{
+  "id": "claim-002",
+  "layout": "letter",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-108303",
+    "claimantFirstName": "Avery",
+    "claimantLastName": "Brennan",
+    "memberId": "SYN30338075",
+    "dateOfBirth": "1987-05-26",
+    "referralNumber": "RF26SR6M7MSJ",
+    "referralExpirationDate": "2026-11-01",
+    "providerName": "Casey Greer, DO",
+    "providerNpi": "1448966626",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-05-21",
+    "serviceDateTo": "2026-05-21",
+    "diagnosisCode": "E11.9",
+    "procedureCode": "99214",
+    "serviceDescription": "Office visit, established patient, moderate complexity",
+    "billedAmount": 129.97,
+    "submittedDate": "2026-06-20"
+  },
+  "expectedIssues": []
+}

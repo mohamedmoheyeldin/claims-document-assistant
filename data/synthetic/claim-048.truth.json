@@ -1,0 +1,34 @@
+{
+  "id": "claim-048",
+  "layout": "note",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-472437",
+    "claimantFirstName": null,
+    "claimantLastName": "Nakamura",
+    "memberId": "SYN33527611",
+    "dateOfBirth": "1952-03-25",
+    "referralNumber": "RF26XBCU64FB",
+    "referralExpirationDate": "2027-04-26",
+    "providerName": "Dakota Thornton, DO",
+    "providerNpi": "1769800586",
+    "facilityName": "Riverbend Imaging Center",
+    "serviceDateFrom": "2026-05-28",
+    "serviceDateTo": "2026-05-28",
+    "diagnosisCode": "G47.33",
+    "procedureCode": "95810",
+    "serviceDescription": "Polysomnography, attended sleep study",
+    "billedAmount": null,
+    "submittedDate": "2026-06-05"
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "claimantFirstName"
+    },
+    {
+      "code": "MISSING_FIELD",
+      "field": "billedAmount"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "claim-049",
+  "layout": "note",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-480393",
+    "claimantFirstName": "Jordan",
+    "claimantLastName": "Delacroix",
+    "memberId": "SYN66785074",
+    "dateOfBirth": null,
+    "referralNumber": "RF26VPFP5F3X",
+    "referralExpirationDate": "2026-03-15",
+    "providerName": "Taylor Mensah, NP",
+    "providerNpi": "1553439831",
+    "facilityName": "Riverbend Imaging Center",
+    "serviceDateFrom": "2026-01-09",
+    "serviceDateTo": "2026-01-09",
+    "diagnosisCode": "S83.241A",
+    "procedureCode": "29881",
+    "serviceDescription": "Arthroscopy, knee, with meniscectomy",
+    "billedAmount": 3876.96,
+    "submittedDate": null
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "dateOfBirth"
+    },
+    {
+      "code": "MISSING_FIELD",
+      "field": "submittedDate"
+    }
+  ]
+}

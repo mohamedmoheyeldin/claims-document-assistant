@@ -1,0 +1,30 @@
+{
+  "id": "claim-010",
+  "layout": "form",
+  "scenario": "invalid",
+  "fields": {
+    "claimNumber": "CLM-2026-171382",
+    "claimantFirstName": "Dakota",
+    "claimantLastName": "Whitfield",
+    "memberId": "SYN69966121",
+    "dateOfBirth": "1983-08-17",
+    "referralNumber": "RF26SZ5VB4Y2",
+    "referralExpirationDate": "2027-01-28",
+    "providerName": "Reese Abernathy, DO",
+    "providerNpi": "1702275748",
+    "facilityName": "Cedar Valley Family Clinic",
+    "serviceDateFrom": "2026-03-24",
+    "serviceDateTo": "2026-03-24",
+    "diagnosisCode": "540.5",
+    "procedureCode": "72148",
+    "serviceDescription": "MRI lumbar spine without contrast",
+    "billedAmount": 1579.37,
+    "submittedDate": "2026-04-04"
+  },
+  "expectedIssues": [
+    {
+      "code": "INVALID_DIAGNOSIS_CODE",
+      "field": "diagnosisCode"
+    }
+  ]
+}

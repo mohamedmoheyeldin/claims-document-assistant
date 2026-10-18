@@ -1,0 +1,30 @@
+{
+  "id": "claim-005",
+  "layout": "note",
+  "scenario": "invalid",
+  "fields": {
+    "claimNumber": "CLM-2026-132274",
+    "claimantFirstName": "Jordan",
+    "claimantLastName": "Brennan",
+    "memberId": "SYN66080963",
+    "dateOfBirth": "1974-08-03",
+    "referralNumber": "RF26SUM9LZBK",
+    "referralExpirationDate": "2026-05-08",
+    "providerName": "Casey Greer, NP",
+    "providerNpi": "1973538501",
+    "facilityName": "Northgate Orthopedic Group",
+    "serviceDateFrom": "2026-04-04",
+    "serviceDateTo": "2026-04-04",
+    "diagnosisCode": "540.5",
+    "procedureCode": "90837",
+    "serviceDescription": "Psychotherapy, 60 minutes",
+    "billedAmount": 257.62,
+    "submittedDate": "2026-04-19"
+  },
+  "expectedIssues": [
+    {
+      "code": "INVALID_DIAGNOSIS_CODE",
+      "field": "diagnosisCode"
+    }
+  ]
+}

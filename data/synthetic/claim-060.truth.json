@@ -1,0 +1,30 @@
+{
+  "id": "claim-060",
+  "layout": "form",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-568041",
+    "claimantFirstName": "Dakota",
+    "claimantLastName": "Hargrove",
+    "memberId": "SYN76912358",
+    "dateOfBirth": "1962-07-05",
+    "referralNumber": null,
+    "referralExpirationDate": "2026-08-17",
+    "providerName": "Rowan Thornton, MD",
+    "providerNpi": "1872559749",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-06-23",
+    "serviceDateTo": "2026-06-23",
+    "diagnosisCode": "M51.26",
+    "procedureCode": "72148",
+    "serviceDescription": "MRI lumbar spine without contrast",
+    "billedAmount": 1719.2,
+    "submittedDate": "2026-07-20"
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "referralNumber"
+    }
+  ]
+}

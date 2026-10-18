@@ -1,0 +1,25 @@
+{
+  "id": "claim-018",
+  "layout": "letter",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-235483",
+    "claimantFirstName": "Dakota",
+    "claimantLastName": "Castillo",
+    "memberId": "SYN32964989",
+    "dateOfBirth": "1996-07-19",
+    "referralNumber": "RF263MRAH7E7",
+    "referralExpirationDate": "2026-07-22",
+    "providerName": "Rowan Patel, PhD",
+    "providerNpi": "1596833859",
+    "facilityName": "Cedar Valley Family Clinic",
+    "serviceDateFrom": "2026-05-03",
+    "serviceDateTo": "2026-05-03",
+    "diagnosisCode": "F43.10",
+    "procedureCode": "90837",
+    "serviceDescription": "Psychotherapy, 60 minutes",
+    "billedAmount": 169.9,
+    "submittedDate": "2026-05-15"
+  },
+  "expectedIssues": []
+}

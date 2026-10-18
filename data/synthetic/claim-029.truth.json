@@ -1,0 +1,25 @@
+{
+  "id": "claim-029",
+  "layout": "letter",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-322487",
+    "claimantFirstName": "Hayden",
+    "claimantLastName": "Delacroix",
+    "memberId": "SYN81262215",
+    "dateOfBirth": "1953-01-22",
+    "referralNumber": "RF26G5LFMEPD",
+    "referralExpirationDate": "2026-07-13",
+    "providerName": "Rowan Greer, DO",
+    "providerNpi": "1649893967",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-02-08",
+    "serviceDateTo": "2026-02-11",
+    "diagnosisCode": "F43.10",
+    "procedureCode": "90837",
+    "serviceDescription": "Psychotherapy, 60 minutes",
+    "billedAmount": 224.44,
+    "submittedDate": "2026-02-17"
+  },
+  "expectedIssues": []
+}

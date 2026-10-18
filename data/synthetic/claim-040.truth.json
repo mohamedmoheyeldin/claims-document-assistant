@@ -1,0 +1,30 @@
+{
+  "id": "claim-040",
+  "layout": "letter",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-409658",
+    "claimantFirstName": "Morgan",
+    "claimantLastName": "Ellison",
+    "memberId": "SYN59362179",
+    "dateOfBirth": "1993-02-07",
+    "referralNumber": "RF26XKRB5L8G",
+    "referralExpirationDate": "2026-04-26",
+    "providerName": "Casey Mensah, PhD",
+    "providerNpi": "1666670280",
+    "facilityName": "Lakeside Community Physical Therapy",
+    "serviceDateFrom": "2026-02-16",
+    "serviceDateTo": "2026-02-17",
+    "diagnosisCode": null,
+    "procedureCode": "95810",
+    "serviceDescription": "Polysomnography, attended sleep study",
+    "billedAmount": 2150.72,
+    "submittedDate": "2026-02-24"
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "diagnosisCode"
+    }
+  ]
+}

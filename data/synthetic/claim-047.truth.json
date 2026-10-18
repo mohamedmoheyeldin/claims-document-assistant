@@ -1,0 +1,25 @@
+{
+  "id": "claim-047",
+  "layout": "letter",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-464946",
+    "claimantFirstName": "Avery",
+    "claimantLastName": "Castillo",
+    "memberId": "SYN23126240",
+    "dateOfBirth": "1998-11-22",
+    "referralNumber": "RF26XVUUFD7H",
+    "referralExpirationDate": "2027-06-05",
+    "providerName": "Taylor Abernathy, DO",
+    "providerNpi": "1334042623",
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-07-02",
+    "serviceDateTo": "2026-07-02",
+    "diagnosisCode": "E11.9",
+    "procedureCode": "99214",
+    "serviceDescription": "Office visit, established patient, moderate complexity",
+    "billedAmount": 224.97,
+    "submittedDate": "2026-07-08"
+  },
+  "expectedIssues": []
+}

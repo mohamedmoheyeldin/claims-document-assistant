@@ -1,0 +1,30 @@
+{
+  "id": "claim-004",
+  "layout": "form",
+  "scenario": "invalid",
+  "fields": {
+    "claimNumber": "CLM-2026-124100",
+    "claimantFirstName": "Reese",
+    "claimantLastName": "Adeyemi",
+    "memberId": "SYN18549394",
+    "dateOfBirth": "1965-06-05",
+    "referralNumber": "RF26WGWHDW85",
+    "referralExpirationDate": "2026-12-16",
+    "providerName": "Taylor Thornton, PhD",
+    "providerNpi": "1928481647",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-01-21",
+    "serviceDateTo": "2026-01-21",
+    "diagnosisCode": "F43.10",
+    "procedureCode": "90837",
+    "serviceDescription": "Psychotherapy, 60 minutes",
+    "billedAmount": 222.19,
+    "submittedDate": "2026-02-22"
+  },
+  "expectedIssues": [
+    {
+      "code": "INVALID_NPI",
+      "field": "providerNpi"
+    }
+  ]
+}

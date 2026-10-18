@@ -1,0 +1,25 @@
+{
+  "id": "claim-007",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-148374",
+    "claimantFirstName": "Emerson",
+    "claimantLastName": "Sorensen",
+    "memberId": "SYN71081673",
+    "dateOfBirth": "1987-07-09",
+    "referralNumber": "RF262UYST3QQ",
+    "referralExpirationDate": "2026-10-02",
+    "providerName": "Emerson Thornton, NP",
+    "providerNpi": "1593389921",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-07-24",
+    "serviceDateTo": "2026-07-28",
+    "diagnosisCode": "E11.9",
+    "procedureCode": "99214",
+    "serviceDescription": "Office visit, established patient, moderate complexity",
+    "billedAmount": 174.11,
+    "submittedDate": "2026-07-29"
+  },
+  "expectedIssues": []
+}

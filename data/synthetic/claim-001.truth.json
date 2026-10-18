@@ -1,0 +1,30 @@
+{
+  "id": "claim-001",
+  "layout": "form",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-100993",
+    "claimantFirstName": "Avery",
+    "claimantLastName": "Castillo",
+    "memberId": "SYN64230168",
+    "dateOfBirth": "1968-07-05",
+    "referralNumber": "RF265LXUY2NK",
+    "referralExpirationDate": "2027-06-05",
+    "providerName": "Emerson Abernathy, DO",
+    "providerNpi": null,
+    "facilityName": "Lakeside Community Physical Therapy",
+    "serviceDateFrom": "2026-08-03",
+    "serviceDateTo": "2026-08-03",
+    "diagnosisCode": "E11.9",
+    "procedureCode": "99214",
+    "serviceDescription": "Office visit, established patient, moderate complexity",
+    "billedAmount": 155.11,
+    "submittedDate": "2026-08-08"
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "providerNpi"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "claim-037",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-385747",
+    "claimantFirstName": "Rowan",
+    "claimantLastName": "Whitfield",
+    "memberId": "SYN77220891",
+    "dateOfBirth": "1977-07-22",
+    "referralNumber": "RF267NNDDHCH",
+    "referralExpirationDate": "2026-12-10",
+    "providerName": "Taylor Mensah, MD",
+    "providerNpi": "1458777632",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-08-04",
+    "serviceDateTo": "2026-08-04",
+    "diagnosisCode": "M54.50",
+    "procedureCode": "97110",
+    "serviceDescription": "Therapeutic exercise, 15 minutes",
+    "billedAmount": 89.2,
+    "submittedDate": "2026-09-08"
+  },
+  "expectedIssues": []
+}

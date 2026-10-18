@@ -1,0 +1,34 @@
+{
+  "id": "claim-043",
+  "layout": "form",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-433097",
+    "claimantFirstName": null,
+    "claimantLastName": "Nakamura",
+    "memberId": "SYN87372650",
+    "dateOfBirth": "1980-01-03",
+    "referralNumber": "RF2638AQWCNH",
+    "referralExpirationDate": "2027-02-27",
+    "providerName": "Casey Mensah, PhD",
+    "providerNpi": "1450018852",
+    "facilityName": "Summit Behavioral Health",
+    "serviceDateFrom": "2026-04-18",
+    "serviceDateTo": "2026-04-18",
+    "diagnosisCode": null,
+    "procedureCode": "29881",
+    "serviceDescription": "Arthroscopy, knee, with meniscectomy",
+    "billedAmount": 5541.8,
+    "submittedDate": "2026-04-26"
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "claimantFirstName"
+    },
+    {
+      "code": "MISSING_FIELD",
+      "field": "diagnosisCode"
+    }
+  ]
+}

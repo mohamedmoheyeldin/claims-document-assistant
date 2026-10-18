@@ -1,0 +1,25 @@
+{
+  "id": "claim-033",
+  "layout": "form",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-353564",
+    "claimantFirstName": "Casey",
+    "claimantLastName": "Whitfield",
+    "memberId": "SYN47371002",
+    "dateOfBirth": "1998-10-08",
+    "referralNumber": "RF26JP8EBQQ6",
+    "referralExpirationDate": "2026-06-13",
+    "providerName": "Avery Iverson, PhD",
+    "providerNpi": "1932987286",
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-04-27",
+    "serviceDateTo": "2026-04-27",
+    "diagnosisCode": "G47.33",
+    "procedureCode": "95810",
+    "serviceDescription": "Polysomnography, attended sleep study",
+    "billedAmount": 2777.93,
+    "submittedDate": "2026-05-29"
+  },
+  "expectedIssues": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "claim-032",
+  "layout": "note",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-346135",
+    "claimantFirstName": "Emerson",
+    "claimantLastName": null,
+    "memberId": "SYN92844093",
+    "dateOfBirth": "1969-05-04",
+    "referralNumber": "RF26FYD2ECHH",
+    "referralExpirationDate": "2026-04-28",
+    "providerName": "Dakota Mensah, MD",
+    "providerNpi": "1781298306",
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-02-15",
+    "serviceDateTo": "2026-02-15",
+    "diagnosisCode": "S83.241A",
+    "procedureCode": "29881",
+    "serviceDescription": "Arthroscopy, knee, with meniscectomy",
+    "billedAmount": 3432.19,
+    "submittedDate": "2026-03-26"
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "claimantLastName"
+    }
+  ]
+}

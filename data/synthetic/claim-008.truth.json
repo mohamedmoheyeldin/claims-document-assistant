@@ -1,0 +1,25 @@
+{
+  "id": "claim-008",
+  "layout": "note",
+  "scenario": "complete",
+  "fields": {
+    "claimNumber": "CLM-2026-156068",
+    "claimantFirstName": "Rowan",
+    "claimantLastName": "Delacroix",
+    "memberId": "SYN22658322",
+    "dateOfBirth": "1969-12-27",
+    "referralNumber": "RF26ECU4WYJB",
+    "referralExpirationDate": "2026-07-18",
+    "providerName": "Dakota Vasquez, PhD",
+    "providerNpi": "1868832605",
+    "facilityName": "Northgate Orthopedic Group",
+    "serviceDateFrom": "2026-02-08",
+    "serviceDateTo": "2026-02-08",
+    "diagnosisCode": "M51.26",
+    "procedureCode": "72148",
+    "serviceDescription": "MRI lumbar spine without contrast",
+    "billedAmount": 1612.26,
+    "submittedDate": "2026-03-08"
+  },
+  "expectedIssues": []
+}

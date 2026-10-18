@@ -1,0 +1,30 @@
+{
+  "id": "claim-057",
+  "layout": "form",
+  "scenario": "missing",
+  "fields": {
+    "claimNumber": "CLM-2026-543965",
+    "claimantFirstName": "Rowan",
+    "claimantLastName": "Sorensen",
+    "memberId": "SYN78261428",
+    "dateOfBirth": "1976-06-24",
+    "referralNumber": "RF269D8RVZSF",
+    "referralExpirationDate": "2026-07-28",
+    "providerName": "Avery Kowalski, NP",
+    "providerNpi": null,
+    "facilityName": "Harbor Point Sleep Center",
+    "serviceDateFrom": "2026-02-08",
+    "serviceDateTo": "2026-02-09",
+    "diagnosisCode": "E11.9",
+    "procedureCode": "99214",
+    "serviceDescription": "Office visit, established patient, moderate complexity",
+    "billedAmount": 157.27,
+    "submittedDate": "2026-03-16"
+  },
+  "expectedIssues": [
+    {
+      "code": "MISSING_FIELD",
+      "field": "providerNpi"
+    }
+  ]
+}
